@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<!-- saved from url=(0028)http://www.daizhe.cn/profile -->
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<link rel="stylesheet" type="text/css" href="__STATIC__/admin/css/home.css">
+		<link rel="stylesheet" type="text/css" href="__STATIC__/admin/css/person.css">
+		<link rel="stylesheet" type="text/css" href="__STATIC__/admin/css/jquery.Jcrop.css">
+		<title></title>
+	</head>
+	<body>
+		<div class="jcropop_mask"></div>
+		<div class="bgeb2">
+			<section class="w1000 clear">
+				<article class="fl pre_set setMp">
+					<h3 class="setTitle">
+						<i class="ico"></i> 个人资料	
+					</h3>
+					<div class="basic_data" id="form_box">
+						<div class="data_tit">
+						</div>
+						{foreach $personal as $val}
+						<div class="data_info correctInfo">
+							<dl >								
+								<dd>
+									<div class="headImg clear">
+										<img src="{$val.slsh_picture}">
+									</div>
+								</dd>
+							</dl>
+							<dl>
+								<dt>用户名：</dt>
+								<dd>
+									<span class="c">
+										<div class="pre_setInp dataInp">{$val.slsh_username}</div>
+									</span>
+								</dd>
+							</dl>
+							<dl>
+								<dt>手机号：</dt>
+								<dd>
+									<span class="c">
+										<div class="pre_setInp dataInp">{$val.slsh_tel}</div>
+									</span>
+									
+								</dd>
+							</dl>
+							<dl>
+								<dt>生日：</dt>
+								<dd>
+									<span class="c">
+										<div class="pre_setInp dataInp">
+										{if $val.slsh_brithday == null}
+										该用户还未添加哟~~
+										{else}
+										{$val.slsh_brithday}
+										{/if}
+										</div>
+									</span>
+									
+								</dd>
+							</dl>
+							
+							<dl>
+								<dt>性别：</dt>
+								<dd>
+									<span class="c">
+										<div class="pre_setInp dataInp">
+										{if $val.slsh_sex == 0}
+										男
+										{elseif $val.slsh_sex == 1}
+										女
+										{else}
+										保密
+										{/if}
+										</div>
+									</span>
+									
+								</dd>
+							</dl>
+							<dl>
+								<dt>积分：</dt>
+								<dd>
+									<span class="c">
+										<div class="pre_setInp dataInp">{$val.slsh_grade}</div>
+									</span>
+									
+								</dd>
+							</dl>
+							<dl>
+								<dt>会员等级</dt>
+								<dd>
+									<span class="c">
+										<div class="pre_setInp dataInp">{$val.slsh_level}</div>
+									</span>								
+								</dd>
+							</dl>
+						</div>
+						{/foreach}
+					</div>
+				</article>				
+			</section>
+		</div>
+	</body>
+</html>

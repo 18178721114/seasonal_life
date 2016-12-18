@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+<div style="margin-left:40%;font-size:25px;font-weight:bold;">商品详细信息</div>
+<hr>
+<form action="__SITE__/admin/good/xiugai/xiugaiid/{$sow.slsh_goodid}" method="post">
+<table width="1000" style="text-align:center;">
+	<tr >
+	    
+	    <th width="14%">商品名称</th>
+		<th>商品价格</th>
+		<th>商品折扣价格</th>
+		<th>商品规格</th>
+		<th>商品产地</th>
+		<th><span style="width:140px;">商品品类</span></th>
+	</tr>
+	<tr style="height:50px;">
+
+	 <td><input type="text"  name="goodname" value ="{$sow.slsh_goodname}" style="width:140px; text-align:center;"></td>
+	 <td><input type="text" name="goodprice" value ="{$sow.slsh_goodprice}" style="width:140px; text-align:center;"></td>
+	 <td><input type="text" name="discount" value ="{$sow.slsh_discount}" style="width:140px; text-align:center;"></td>
+	 <td><input type="text"  name="spec" value ="{$sow.slsh_spec}" style="width:140px; text-align:center;"></td>
+	 <td><input type="text" name="orign" value ="{$sow.slsh_orign}" style="width:140px; text-align:center;"></td>
+	 <td ><span style="width:140px;">{$sow1.slsh_class}</span></td>
+	</tr>
+       <tr style="height:100px;">
+       <td></td>
+       <td></td>
+       <td><input type="submit" value="修改" style="width:60px;height:35px;background-color:#eeeeee;"></td>
+       <td></td>
+       <td></td>
+       <td></td>
+       
+
+      
+	<tr>
+	 <th>商品照片：</th>
+	 <td><img src="{$sow.slsh_picture}" alt="" style="width:150px;height:150px"></td>
+	 <td><img src="{$sow.slsh_picture1}" alt="" style="width:150px;height:150px"></td>
+	 <td><img src="{$sow.slsh_picture2}" alt="" style="width:150px;height:150px"></td>
+	 <td><img src="{$sow.slsh_picture3}" alt="" style="width:150px;height:150px"></td>
+	</tr>
+	 
+       
+      
+	<tr>
+	 <th>商品详情照片：</th>
+	 <td><img src="{$sow.slsh_photo}" alt="" style="width:150px;height:150px"></td>
+	 <td><img src="{$sow.slsh_photo1}" alt="" style="width:150px;height:150px"></td>
+	 <td><img src="{$sow.slsh_photo2}" alt="" style="width:150px;height:150px"></td>
+	 <td><img src="{$sow.slsh_photo3}" alt="" style="width:150px;height:150px"></td>
+	</tr>
+
+   
+
+</table>
+</form>
+<table>
+</body>
+</html>

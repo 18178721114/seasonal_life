@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta name="renderer" content="webkit">
+<title></title>
+<link rel="stylesheet" href="__STATIC__/admin/css/pintuer.css">
+<link rel="stylesheet" href="__STATIC__/admin/css/admin.css">
+<script type="text/javascript" src="__STATIC__/admin/js/jquery-1.11.0.min.js"></script>
+<!-- <script type="text/javascript" src="__STATIC__/admin/js/uploadPreview.js"></script> -->
+<style>
+            .sh{
+            	border: 1px solid #eeeeee;
+            	width: 100px;
+            	height: 35px;
+            	background-color: #eeeeee;
+            }
+        </style>
+</head>
+<body>
+
+<div class="panel admin-panel">
+  <div class="panel-head" id="addgood"><strong><span class="icon-pencil-square-o"></span>添加商品</strong></div>
+  <div class="body-content">
+ 
+     <form method="post" class="form-x" action="__SITE__/admin/good/addgood">  
+      <div class="form-group">
+        <div class="label">
+          <label>商品名称：</label>
+        </div>
+        <div class="field">
+          <input type="text" class="input w50" value="" name="title"  id="title"/>
+          <div class="tips"></div>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="label">
+          <label>商品价格：</label>
+        </div>
+        <div class="field">
+          <input type="text" class="input w50" value="" name="pirce" placeholder="请输入价格" />
+          <div class="tips"></div>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="label">
+          <label>商品规格：</label>
+        </div>
+        <div class="field">
+          <input type="text" class="input w50" value="" name="spec" data-validate="required:请输入价格" placeholder="以千克为准" />
+          <div class="tips"></div>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="label">
+          <label>商品产地：</label>
+        </div>
+        <div class="field">
+          <input type="text" class="input w50" value="" name="origin" data-validate="required:请输入产地" />
+          <div class="tips"></div>
+        </div>
+      </div>
+
+      <div class="form-group">
+          <div class="label">
+            <label>分类标题：</label>
+          </div>
+          <div class="field">
+            <select name="mingcheng"  class="input w50" id='small'>
+             <option selected value="0">-不选择-</option>
+              {foreach $smallplate as $key => $va}
+
+              <option value="{$va.slsh_plateid}" style="display:block" >{$va.slsh_class}</option>
+              
+              
+              {/foreach}
+          </select>
+            <div class="tips"></div>
+          </div>
+        </div>
+
+           
+      
+      <div class="form-group">
+        <div class="label" style="margin-left:50px;">
+          <button class="button bg-main icon-check-square-o" type="submit" id="sb" style="display:block"> 添加</button>
+        
+        </div>
+        <div class="label">
+ 
+          
+        </div>
+      </div>
+    </form>
+    
+  </div>
+</div>
+</body></html>
+
+

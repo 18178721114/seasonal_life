@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta name="renderer" content="webkit">
+<title></title>
+<link rel="stylesheet" href="__STATIC__/admin/css/pintuer.css">
+<link rel="stylesheet" href="__STATIC__/admin/css/admin.css">
+<script src="__STATIC__/admin/js/jquery.js"></script>
+<script src="__STATIC__/admin/js/pintuer.js"></script>
+</head>
+<body>
+
+  <div class="panel admin-panel">
+    <div class="panel-head"><strong class="icon-reorder"> 商品列表</strong> </div>
+    <div class="padding border-bottom">
+      <ul class="search" style="padding-left:10px;">
+        <li> <a class="button border-main icon-plus-square-o" href="__SITE__/admin/good/thirdadd"> 添加商品</a> </li>
+        
+       
+        
+      </ul>
+    </div>
+    <table class="table table-hover text-center">
+      <tr>
+        <th >商品编号</th>
+        <th>图片</th>
+        <th width="14%">名称</th>
+        <th>价格</th>
+        <th>折扣价格</th>
+        <th>产地</th>
+        <th>状态</th>
+        <th></th>
+        <th width="310">操作</th>
+      </tr>
+      <volist name="list" id="vo">
+      {foreach $show as $key =>$val}
+        <tr>
+          <td>{$val.slsh_goodid}</td>
+           
+          
+          <td width="10%"><img src="__SITE__{$val.slsh_picture}" alt="" width="70" height="50" /></td>
+          <td>{$val.slsh_goodname}</td>
+          <td><font color="#00CC99">{$val.slsh_goodprice}</font></td>
+          <form method="post" action="__SITE__/admin/good/thirdzhekou/zhekouid/{$val.slsh_goodid}" >
+          <td><input type="text" name="pirce" style="width:40px;">&nbsp;&nbsp;&nbsp;<input type="submit" value="折扣" style="width:40px;">
+          </td>
+          </form>
+          <td>{$val.slsh_orign}</td>
+          {if $val.slsh_shelf == 0}
+          <td>下架</td>
+          {elseif $val.slsh_shelf==1}
+          <td>上架</td>
+          {else}
+          <td>折扣</td>
+          {/if}
+                    <td>
+          
+          <a  href="__SITE__/admin/good/thirdshow2/showid/{$val.slsh_goodid}" id="{$val.slsh_goodid}">商品详情</a>
+
+         
+          </td>
+          <td><div class="button-group"> <a class="button border-main" href="__SITE__/admin/good/thirddelete/delid/{$val.slsh_goodid}"><span class="icon-edit"></span>删除</a> <a class="button border-red" href="__SITE__/admin/good/thirdupShelf/downid/{$val.slsh_goodid}" onclick="return del(1,1,1)"><span class="icon-trash-o"></span>上架</a><a class="button border-main" href="__SITE__/admin/good/thirdaddphoto/addid/{$val.slsh_goodid}"><span class="icon-edit"></span>添加照片</a>  </div></td>
+        </tr>
+{/foreach}
+      <!-- <tr>
+        <td style="text-align:left; padding:19px 0;padding-left:20px;"><input type="checkbox" id="checkall"/>
+          全选 </td>
+        <td colspan="7" style="text-align:left;padding-left:20px;"><a href="javascript:void(0)" class="button border-red icon-trash-o" style="padding:5px 15px;" onclick="DelSelect()"> 删除</a> <a href="javascript:void(0)" style="padding:5px 15px; margin:0 10px;" class="button border-blue icon-edit" onclick="sorts()"> 排序</a>
+          
+      </tr> -->
+      <tr>
+        <td colspan="8"><div class="pagelist"> {$show->render()} </div></td>
+      </tr>
+    </table>
+  </div>
+
+ 
+</body>
+</html>

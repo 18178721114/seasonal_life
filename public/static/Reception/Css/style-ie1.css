@@ -1,0 +1,204 @@
+﻿@charset "utf-8";
+/*index*/
+.fruit-kinds .good-list ul li{*width: 314px;}
+.fruit-kinds .title{*height: 27px;}
+.fruit-kinds .good-list ul li .s-che{width: 36px;height: 36px;	background: url(../Images/icons.png) no-repeat -514px -243px\9\0;background: url(../Images/icons.png) no-repeat -514px -243px\0;*background: url(../Images/icons.png) no-repeat -514px -243px\9;}
+.fruit-kinds .good-list ul{*zoom:1;}
+.fix-card-goverment {width:128px;  height:160px;}
+/*detail*/
+#MyFocus .dianul li.cur {border:1px solid #f6af0d;width: 138px;height: 138px;}
+.clearfix:after{visibility: hidden;display: block;font-size: 0;content: " ";clear: both;height: 0;} 
+.clearfix{*zoom:1;} 
+.product-info .price-info{*padding-bottom: 20px;}
+.content .assess .good-details a{*height: 40px;}
+.product-info{*padding-left: 28px;*width:552px;}
+.product-info .price-info .price01{*width: 529px;}
+.product-info .price-info .price01 .box .pri02 span{*padding-bottom:20px;}
+.product-info .price-info .number .goods-buy01{*height: 22px;}
+.product-info .price-info .guige .zhuang span{height: 24px;line-height: 24px;}
+.content .assess .good-details span.cur{*height:38px;*line-height: 34px;}
+.product-info .price-info .buy a,.product-info .price-info .add a{*width: 130px;*line-height:35px;}
+ span.caret {font: 14px/100% 'Hiragino Sans GB','Microsoft YaHei'; color: #afafaf; }
+.product-info .price-info .send span.glyphicon{*display: block;*width: 11px;	*height: 7px;*background: url(../Images/icons.png) no-repeat -590px -198px;}
+.glyphicon{	*display: none;}
+.detail-user-title{	*width: 970px;}
+.detail-user-title li{*line-height: 36px; } 
+.detail-user-title li.now-gray{*line-height: 36px; }
+.detail-user-title li.now-gray s{display: inline-block;	width: 14px;height: 16px;padding-right: 25px;margin-top: 10px;*background: url(../Images/icons.png) no-repeat -532px -153px;} 
+.detail-user-title li s{*background: url(../Images/icons.png) no-repeat -512px -173px; } 
+.detail-user-title li.now-gray s{*background: url(../Images/icons.png) no-repeat -512px -153px; }
+/*leftpart 宽*/ 
+.content .assess .leftpart{	*width: 998px;	*border: 1px solid  #ccc;}
+.content .assess .good-comments ul.no2 .detail-user .detail-allsays .detail-user-says-left{	*width: 90px;}
+.content .assess .good-comments ul.no2 .detail-title .detail-title00{*width: 138px;	*height: 58px;}
+.content .assess .good-comments ul.no2 .detail-title .detail-title01{*width: 300px;}
+.content .assess .good-comments ul.no2 .detail-title .detail-title02{*width: 402px;}
+.content .assess .good-details a{line-height: 38px;}
+ /*rightpart----css*/
+ .content .assess .good-details{*width: 998px; } 
+.assess .rightpart{	*width: 258px;}
+.btn-toolbar .page-content{	*width: 512px;}
+.assess .rightpart ul li{*height: 69px;}
+/*悬浮*/
+.content .assess .good-details a .thefruit{	*bottom:-167px;}
+.content .assess .good-details a .thefruit .fruitright p{left: -28px;}
+.content .assess .good-details a .thefruit .fruitright small{left: -56px;	*top:-12px;}
+.content .assess .good-details a .thefruit .fruitright .anniu{	line-height: 30px;}
+.content .assess .good-details a .thefruit{	*width: 329px;	*height: 138px;}
+.content .assess .good-details a i{*display: block;	*width: 20px;*height: 20px;	*padding-top: 5px;*margin-top: 7px;	*background:url(../Images/icons.png) no-repeat -528px -5px; 	*margin-top: -28px;	*margin-left: -3px;	opacity:.9; /* 支持CSS3的浏览器（FF 1.5也支持） 透明度70%*/ 	filter:alpha(opacity=90);/* IE 透明度70%*/ 	-moz-opacity:.9; /* Moz + FF 透明度70%*/  }.content .assess .good-details a .thefruit .fruitright .anniu{	*margin-top: 10px;}/*cart*/.content .assess .good-details a{	*width: 126px;}/*图片遮罩*/.modal-dialog{	position: relative;	width: 600px;	margin: 30px auto;}
+.product-info .country .name h3{line-height: 38px;}
+.product-info .price-info .number .goods-buy01 span.num{line-height: 22px;}
+.btn-toolbar .main .pagenum a.cur{line-height: 26px;}
+.shop-cart .shop-content .choosed .title-fruit{*width: 340px;}
+.shop-cart .shop-content .choosed ul li.no2{*margin-top: 12px}
+/*弹窗按钮 开始*/
+.fr-buy .btn-lg,.fr-buy.btn-group-lg > .btn,.fr-add .btn-lg,.fr-add.btn-group-lg > .btn{*padding:0 23px;}
+/*弹窗按钮 结束*/
+/*channel*/
+.f-list{overflow:hidden;zoom:100%;}
+.f-list .leftpart {*margin-bottom: 92px;}
+.f-list .rightpart{width: 258px;}
+.f-list .rightpart ul li{*height: 70px;}
+.new-kind .title{*height: 38px;}
+.content .select .f-select span.f-all{line-height: 24px}
+.f-list .rightpart ul li .tu{position: relative;z-index:-1;}
+.f-list .p-operate .s-kg span.cur{*height: 20px;}
+.f-list .leftpart ul{*position: relative;*zoom:1;}
+.f-list .leftpart ul li .s-info .new,.f-list .leftpart ul li .s-info .hot{line-height: 18px;}
+
+/*注册会员页*/
+.login-right{*width: 440px;*padding-left: 60px;}
+.login-right ul li{*width: 440px;}
+.login-right .login-form ul li .yanzm{*width: 272px;*padding-left: 22px;}
+.login-right .login-form ul li .send-yanzm{*padding-left: 22px;}
+.login-right .login-form ul li .mobile-yanzm{*padding-left: 22px;}
+.login-right .login-form ul li .password{*padding-left: 22px;}
+.login-right .login-form ul li .entrue{*padding-left: 22px;}
+.login-right .login-form ul li input{*height: 34px;}
+.login-right .login-form ul li .yanzm .yanzm-img{*right:-5px;}
+.login-right .login-form ul li .send{top:2px;}
+.login-btn{*height: 22px;}
+.f-list .leftpart .p-operate .s-che{width: 36px;height: 36px;background: url(../Images/icons.png) no-repeat -514px -243px;}
+/*login*/
+.login-right .login-form ul li .password{*padding-left:30px; }
+.login-right .login-form ul li .all{*width:72px;}
+.login-right .login-form ul li .send-yanzm{*padding-left: 18px;}
+.login-right .login-form ul li .wj-mima{*margin-right: 37px;}
+.fr-regist a,.fr-login a{line-height: 38px;}
+/*register*/
+.login-right .login-form UL LI INPUT{*height: 26px;}
+.login-right{*width: 440px;}
+.login-right .login-form ul li .text02{*padding-left: 10px;}
+.login-right .login-form ul li input{*width: 274px;}
+.login-right .login-form ul li .text05{*padding-left: 9px;}
+.login-right .login-form ul li .text03{*white-space: nowrap;}
+.login-right .login-form ul li .send{*height: 40px;*line-height: 40px;}
+.login-right .login-form ul li .mobile-yanzm{*padding-left: 31px;}
+.login-right .login-form UL LI .yanzm{*padding-left: 31px;}
+.login-right .login-form UL LI .yanzm INPUT{*width: 251px;}
+.fruit-login{*margin-right: 34px;}
+.login-right .login-form ul li .yanzm .true{*right:-62px;}
+/*verify*/
+.find_password ul{*margin-left: 0;}
+.find_password ul.step1 li.first,.find_password ul.step2 li.first,.find_password ul.step3 li.first{*width: 330px;}
+.find_password ul.step1 li.second,.find_password ul.step2 li.second,.find_password ul.step3 li.second{*width:305px;}
+.find_password ul.step1 li.third,.find_password ul.step2 li.third,.find_password ul.step3 li.third{*width:319px;}
+.regist_form ul li span{*width: 48px;}
+.regist_form ul li input{*width: 334px;*height: 36px;line-height: 36px;}
+.fill_name ul{*margin-left: 0;}
+.regist_form ul li.verify_code input.send{*width: 175px;*height: 36px;}
+.regist_form ul li.verify_code .input-group span.input-group-addon{*width: 78px;*height: 48px;}
+.regist_form ul li span.set-newcode{*width: 80px;*height: 50px;}
+.regist_form ul li span.agin-sp{*width:112px; }
+/*cart*/
+.p-common-header .container-fluid .collapse ul.icons-cart li.li1{left:-28px;}
+.p-common-header .container-fluid .collapse ul.icons-cart li.li2{left:33px;}
+.p-common-header .container-fluid .collapse ul.icons-cart li.li3{left:92px;}
+.cartmain .cart-head .cart-select .selected{ *margin-top: 15px;}
+.cartmain .cart-order .cartorder-select{ *width: 23px;}
+.cart-goods{*height: 24px;*margin-left: 0}
+.cart-goods span.num{*height: 24px;*width: 29px;}
+.cartmain .cartfooter .cart-pay span.go-pay,.cartmain .cartfooter .cart-pay a.go-pay{*height: 50px}
+.cartmain .cart-head,.cartmain .cartfooter{line-height: 50px}
+.cartmain .cart-order .cartbox .cart-name .others p,.cartmain .cart-order .cartbox2 .send-free p{line-height: 20px;}
+/*pay-success*/
+.pay-success{*width: 550px}
+.pay-success .pay-head .pay-detail p.p-det{margin-top: 5px;}
+/*orderonline*/
+.pay-succeed .pay-options .option-bd ul li input{*top:13px;}
+.pay-succeed .pay-options .option-bd ul li input{top:16px;*top:12px;}
+.pay-succeed .pay-options .option-bd ul li label{position: relative;}
+.pay-succeed .pay-options .option-bd ul li>label>span{display: block; width: 160px;height: 50px;position: absolute;top:0;left:0;background-color: #fff;_opacity:0;    filter: alpha(opacity=0);}
+.pay-succeed .pay-options .option-hd span{*top:2px;}
+/*qiangxian*/
+.qx-content .qx-cor .qx-jingd .jingd-right{*width:392px;}
+.qx-content .qx-cor .qx-cont .qx-info .cart{background-position-x:-514px;}
+.qx-content .qx-cor .qx-jingd .jingd-right .right-bd .bd-limit{*height: 32px}
+.qx-content .qx-cor .qx-cont .qx-info .info-box{*width: 346px}
+/*member-center*/
+.member-content .add-score ul li .exchange-info div a{line-height: 20px;*line-height: 24px;}
+.member-content .member-righzts .member-enjoy ul li .member-pricebox a.price-btn{line-height: 26px}
+.member-body .member-banner .slidebtn>li{*float: left;*margin-left: 6px;*margin-right: 6px}
+.member-body .member-banner .slidebtn>li.active{background-color: transparent;}
+.member-content .member-righzts .member-enjoy ul li .member-pricebox a.price-btn,.member-content .member-applyeat .tryeat-body .member-pricebox a.price-btn{*height: 26px;}
+.member-content .member-righzts .member-enjoy ul li .member-pricebox p.p-name,.member-content .member-applyeat .tryeat-body .member-pricebox p.p-name{*padding-top: 1px;}
+/*member-center和tryeat-report*/
+.member-content .member-applyeat p.tryeat,.content .report-right .member-applyeat p.tryeat{*width: 248px;*height: 37px;}
+.member-content .member-applyeat .tryeat-body,.content .report-right .member-applyeat .tryeat-body{*height: 387px;*width: 236px}
+.member-content .member-apply{*margin-bottom: 0;}
+.member-content .add-score ul li .exchange-info div a{line-height: 20px;}
+.member-content .member-apply .step .level-panel{*height: 70px} 
+/*tryeat*/
+.content .tryeat-info .key .key-width .form-control{*width: 289px;*height: 34px}
+.content .tryeat-right .nearly ul li{*height: 69px}
+.content .tryeat-info .key .key-width a{*width: 134px;*height: 36px;*line-height:34px }
+.content .tryeat-info .try-title{line-height: 30px;}
+.content .tryeat-info .key .key-width .form-control{*border-right:0;}
+.content .tryeat-info .key .key-width a{*position: relative;*top:-1px;}
+.content .tryeat-info{*width: 478px;}
+/*tryeat-past*/
+.content .pasteat-right .member-applyeat .tryeat-body{*width: 236px}
+.content .tryeat-info .result a.view,.content .tryeat-info .result a.buy{line-height: 26px;}
+.content .tryeat-info .result a.view,.content .tryeat-info .result a.buy{*height: 26px}
+.content .tryeat-info .try-title{line-height: 30px;}
+ /*tryeat-report*/
+.content .pasteat-right .member-applyeat p.tryeat,.content .report-right .member-applyeat p.tryeat{*width: 248px;*height: 37px;padding: 6px}
+.content .pasteat-right .member-applyeat .tryeat-body,.content .report-right .member-applyeat .tryeat-body{*height: 389px;}
+.content .pasteat-right .member-applyeat .tryeat-body .member-pricebox a.price-btn,.content .report-right .member-applyeat .tryeat-body .member-pricebox a.price-btn{height: 26px}
+.content .pasteat-right .member-content .member-applyeat .tryeat-body{*width: 236px}
+.content .pasteat-right .member-applyeat .tryeat-body .member-pricebox p.p-name,.content .report-right .member-applyeat .tryeat-body .member-pricebox p.p-name-width{*padding-top: 0}
+.content .pasteat-right .member-content .member-apply{*margin-bottom: 0;}
+.content .pasteat-right .nearly ul li{*height: 69px}
+.btn-toolbar .main .pagenum,.btn-toolbar .main .last,.btn-toolbar .main .next,.btn-toolbar .page-content .pagenum,.btn-toolbar .page-content .last,.btn-toolbar .page-content .next{*display: inline !important;}
+.btn-toolbar .main .pagenum a,.btn-toolbar .page-content .pagenum a{line-height: 26px;}
+.content .pasteat-left .btn-toolbar{*height: 29px;}
+.content .pasteat-left .btn-toolbar .main,.btn-toolbar .page-content{*height: 29px}
+.content .tryeat-report-info a.notice,.content .report-left .Tastepart .btn-toolbar .main .pagenum a{line-height: 26px}
+.content .tryeat-report-info a.notice{*height: 26px}
+.content .tryeat-report-info .report-result{*padding-bottom: 0}
+.content .report-right .nearly ul li{*height: 69px}
+.content .tryeat-report-info .try-title p{line-height: 30px;}
+.content .tryeat-report-info .report-result .number{*width: 88px;}
+/*ticket-exchange*/
+.content .ticketinfo .form-group .form-control{*height:20px}
+.content .choosegifts-panels .gift-panel .panel-right .fruit-family{*margin-top:15px;}
+.content .choosegifts-panels .gift-panel .panel-right a.exchange{*height: 32px}
+.content .send-info .order-item-sendinfo h5.end .form-control{*width: 494px}
+/*cross-country*/
+.typepage .crosscoun-good .rightpart{*width: 348px;*height: 318px;}
+.typepage .crosscoun-good .rightpart span.sp1{*width: 220px;}
+.typepage .business .rules{*width: 661px;}
+.typepage .business div.img-box{*width: 728px;}
+.typepage .crosscoun-good .rightpart a.buy-now{*width: 319px;*height: 26px;*line-height:18px;line-height:25px; *font-size: 20px;*display: block;}
+.typepage .crosscoun-good .rightpart a.buy-now span{top:10px;*right:100px;}
+.typepage .crosscoun-good .rightpart span.sp1{line-height: 28px;}
+/*exchange-gift*/
+.content .choosegifts-panels .gift-panel .panel-right .fruit-family ul li{min-width:188px; }
+.content .choosegifts-panels .gift-panel .panel-right a.exchange{*height: 22px;}
+.content .choosegifts-panels .gift-panel .panel-right a.exchange{line-height: 22px;}
+/*.content .send-info p{line-height: 32px;}*/
+/*xingyeda*/
+.p-freshfooter .logo{background-image:url(../Images/logo1.png);}
+/*收银台*/
+.pay-succeed .pay-box span.pull-left{*padding:0}
+
